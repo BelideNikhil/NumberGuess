@@ -42,6 +42,7 @@ click.addEventListener("click",()=>{
     else if(x<0 || x>20){
         no_input.style.display="block"
         no_input.innerHTML="Please enter a number between 0 and 20"
+        woah.style.display="none"
     }
     else{
         if(x===comp){
