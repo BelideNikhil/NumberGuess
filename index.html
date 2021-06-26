@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guess</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+</head>
+<body><div class="container">
+        <div class="data">
+            <h1>Guess the Number</h1>
+            <h3>The number is between 0 and 20</h3>
+            
+            <div id="computer-number"></div>
+            <div id="loader">
+                <img src="./Loader.gif" height="200">
+            </div>
+            
+
+            <div class="in">
+                <input type="number" id="input" value="" placeholder="Enter a number">
+                <button id="btn">Check</button>
+            </div>
+            <hr>
+            <div class="op">
+                <div id="no-input"></div>
+                <div id="remaining"></div>
+                <div id="close"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
