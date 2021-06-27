@@ -74,7 +74,7 @@ function correct(){
     correctDiv.setAttribute("class","outputDiv")
     let data=document.querySelector(".data")
     data.appendChild(correctDiv)
-    setTimeout(playAgain,2200)
+    setTimeout(playAgain,3000)
 
     woah.style.display="none"
     remaining.style.display="none"
@@ -92,11 +92,11 @@ function checker(){
 
         let data=document.querySelector(".data")
         data.appendChild(correctDiv)
-        setTimeout(playAgain,2200)
+        setTimeout(playAgain,3000)
     }
     else{
         remaining.style.display="block"
-        remaining.innerHTML="you have "+chances+" chances left"
+        remaining.innerHTML=`Wrong Answer, you have ${chances} left `
     }
 }
 
